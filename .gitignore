@@ -1,0 +1,19 @@
+# Created by .ignore support plugin (hsz.mobi)
+### Node template
+
+# Compiled binary addons (https://nodejs.org/api/addons.html)
+build/Release
+
+# Dependency directories
+node_modules/
+/src/index.html
+
+# User-specific stuff:
+.idea/**/workspace.xml
+.idea/**/uiDesigner.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+package-lock.json
+/.idea/
+/.idea/workspace.xml
+/debug.log

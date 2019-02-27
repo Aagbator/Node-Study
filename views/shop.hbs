@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
+  
+<main class="main-product">
+    <h1>My Products</h1>
+    {{#if hasProducts }}
+    <ul class="main-product">
+        {{#each prods}}
+        <li class="main-product__item">{{this.title}}</li>
+        {{/each}}
+    </ul>
+    {{else}}
+    <p>No product at the moment...</p>
+    {{/if}}
+</main>
+        

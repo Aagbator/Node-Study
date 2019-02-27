@@ -1,0 +1,11 @@
+.main-product{
+    list-style: none;
+}
+
+.main-product__item{
+    display: block;
+    padding:20px;
+    box-shadow: 2px 2px 1px #ededed;
+    font-weight: 700;
+    margin-bottom:5px;
+}
